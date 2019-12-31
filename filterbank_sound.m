@@ -1,4 +1,4 @@
-function filterbank_sound (filename, bands, mode = 1)
+function filterbank_sound (filename, bands, mode)
   factor = 0.2;
   #(y, x, z)?! Okay then.
   [audioin, fs] = audioread(filename);
