@@ -11,4 +11,8 @@ Usage: Copy the .m file into your Octave path and run ```filterbank(filename, nu
 
 Output will be saved to the same folder as the input file.
 
-I think the code could be significantly sped up by rewriting it so each iteration first computes a filter kernel equivalent to all the arithmetic being done in the current version and then doing a single convolution of that and the input file. Since the filter is based on triangle filters, it could theoretically be extended to any number of dimensions, so it could be used to decompose things like 2D images/video and 3D voxelmaps.
+## Possible improvements
+
+I think the code could be significantly sped up by rewriting it so each iteration first computes a filter kernel equivalent to all the arithmetic being done in the current version and then doing a single convolution of that and the input file.
+
+Since the filter is based on triangle filters, it could theoretically be extended to any number of dimensions, so it could be used to decompose things like 2D images/video and 3D voxelmaps.
