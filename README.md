@@ -9,7 +9,7 @@ Usage: Copy the .m file into your Octave path and run ```filterbank(filename, nu
 1: Modified triangle filter.
 ```
 
-Output will be saved to the same folder as the input file.
+Output will be saved in FLAC format to the same folder as the input file.
 
 ## Possible improvements
 
